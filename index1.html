@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS PROJECT 2</title>
+    <link rel="stylesheet" href="./style1.css"/>
+</head>
+<body>
+<div id="body1">
+    <div class="mainframe">
+        <div class="firstframe">
+            <div class="tf1"><h1><b>Tasks</b></h1></div>
+            <div class="tf2"><h1><b>List</b></h1></div>
+        </div>
+        <div class="secondframe">
+            <div class="scndfrms">
+            <div id="sf3"><button class="button1" onclick="back()">🠔</button></div>
+            <div id="sf4"><p>Back</p></div>
+            <h3 id="cardtask"><b></b></h3>
+            <div class="sf1"><button onclick="addnewtaskp()" class="button1">+</button></div>
+            <div class="sf2"><p>Add New Task</p></div>
+            </div>
+            <div id="mainbox1"></div>  
+        </div>
+    </div>
+</div>
+<div id="addnewtaskp">
+    <h2 style="margin:2%">Add New Task</h2><button onclick="closenewtaskp()" id="closenewtaskpbtn">×</button>
+    <hr>
+    <br>
+    <input id="inputnewtask" type="text" name="" value="" placeholder="Add New Task"/>
+    <br><br>
+    <button id="AddNewTaskbtn" onclick="AddNewTask()">+ Add Task</button>
+</div>
+<div id="additemsp">
+    <h2 style="margin:2%">Add New Item</h2><button onclick="closeadditemsp()" id="closeadditemsp">×</button>
+    <hr>
+    <br>
+    <input id="inputnewitem" type="text" name="" value="" placeholder="Add New Item"/>
+    <br><br>
+    <button id="AddNewItembtn" onclick="AddNewItem()">+ Add Item</button>
+</div>
+
+<script src="./script1.js"></script>
+</body>
+</html>
